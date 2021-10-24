@@ -1,0 +1,24 @@
+name: marketing
+description: Vasoiti ta'limimi
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  epub_viewer: ^0.2.4
+
+  cupertino_icons: ^1.0.2
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
